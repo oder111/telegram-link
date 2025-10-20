@@ -1,35 +1,107 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="uz">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Telegramga O‘ting</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bizga Qo‘shiling</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      margin-top: 100px;
-      background-color: #f4f4f4;
+      background-image: url("background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 20px;
+      color: #fff;
     }
 
     h2 {
-      color: #333;
+      margin-top: 30px;
+      color: #fff;
     }
 
-    a img {
-      width: 150px;
+    video {
+      width: 90%;
+      max-width: 600px;
+      margin: 20px auto;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .description {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      text-align: center;
+    }
+
+    .card img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+
+    .card-number {
+      font-weight: bold;
+      font-size: 16px;
+      background-color: rgba(0,0,0,0.4);
+      padding: 5px 10px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .telegram-link img {
+      width: 100px;
       transition: transform 0.2s;
     }
 
-    a img:hover {
+    .telegram-link img:hover {
       transform: scale(1.1);
     }
   </style>
 </head>
 <body>
-  <h2>Telegram kanalimizga qo‘shiling!</h2>
-  <a href="https://t.me/n_vxl" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logotipi">
-  </a>
+  <h2>Telegram kanalimizga qo‘shiling!🚀🔥</h2>
+
+  <!-- Video bo‘limi -->
+  <video controls>
+    <source src="video.mp4" type="video/mp4" />
+    Sizning brauzeringiz videoni qo‘llab-quvvatlamaydi.
+  </video>
+
+  <div class="description">
+    Ushbu videoda sizga kerakli ma'lumotlar bor!
+  </div>
+
+  <!-- Humo va Uzcard -->
+  <div class="cards">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/HUMO_logo.png/320px-HUMO_logo.png" alt="Humo Logo" />
+      <div class="card-number">9860 1234 5678 9012</div>
+    </div>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Uzcard_logo.svg/320px-Uzcard_logo.svg.png" alt="Uzcard Logo" />
+      <div class="card-number">8600 9876 5432 1098</div>
+    </div>
+  </div>
+
+  <!-- Telegram link -->
+  <div class="telegram-link">
+    <a href="https://t.me/n_vxl" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logotipi" />
+    </a>
+  </div>
 </body>
 </html>
