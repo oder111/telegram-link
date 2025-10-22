@@ -1,0 +1,79 @@
+/* Umumiy stil */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #fff;
+  background: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1350&q=80") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Markazga joylash */
+.container {
+  background-color: rgba(0, 0, 0, 0.6); /* qora yarim shaffof fon */
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* Sarlavha */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Video */
+video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Tavsif */
+.description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Kartalar */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Telegram tugmasi */
+.telegram-btn {
+  background-color: #0088cc;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+
+.telegram-btn:hover {
+  background-color: #006699;
+}

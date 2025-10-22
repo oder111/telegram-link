@@ -3,105 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bizga Qo‘shiling</title>
-  <style>
-   body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1350&q=80");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 20px;
-  color: #fff;
-}
-
-    h2 {
-      margin-top: 30px;
-      color: #fff;
-    }
-
-    video {
-      width: 90%;
-      max-width: 600px;
-      margin: 20px auto;
-      border-radius: 10px;
-      display: block;
-    }
-
-    .description {
-      font-size: 18px;
-      margin-bottom: 30px;
-    }
-
-    .cards {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 40px;
-      margin-bottom: 30px;
-      flex-wrap: wrap;
-    }
-
-    .card {
-      text-align: center;
-    }
-
-    .card img {
-      width: 80px;
-      margin-bottom: 10px;
-    }
-
-    .card-number {
-      font-weight: bold;
-      font-size: 16px;
-      background-color: rgba(0,0,0,0.4);
-      padding: 5px 10px;
-      border-radius: 5px;
-      display: inline-block;
-    }
-
-    .telegram-link img {
-      width: 100px;
-      transition: transform 0.2s;
-    }
-
-    .telegram-link img:hover {
-      transform: scale(1.1);
-    }
-  </style>
+  <title>Telegram Kanalimiz</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>Telegram kanalimizga qo‘shiling!🚀🔥jsdkfhsjkdfds</h2>
+  <div class="container">
+    <h1>Telegram kanalimizga qo‘shiling 🚀</h1>
 
-  <!-- Video bo‘limi -->
-  <video controls>
-    <source src="video.mp4" type="video/mp4" />
-    Sizning brauzeringiz videoni qo‘llab-quvvatlamaydi.
-  </video>
+    <!-- Video -->
+    <video controls>
+      <source src="video.mp4" type="video/mp4" />
+      Brauzeringiz videoni qo‘llab-quvvatlamaydi.
+    </video>
 
-  <div class="description">
-    aejrgfyeruygfwehjfdskjfgrwuekjghwkerwjskh
-  </div>
+    <!-- Tavsif -->
+    <p class="description">
+      Sizni rasmiy Telegram kanalimizga taklif qilamiz! Quyidagi kartalardan foydalanib bizni qo‘llab-quvvatlashingiz mumkin.
+    </p>
 
-  <!-- Humo va Uzcard -->
-  <div class="cards">
-    <div class="card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/HUMO_logo.png" alt="Humo Logo" />
-      <div class="card-number">9860 1234 5678 9012</div>
+    <!-- Kartalar -->
+    <div class="cards">
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/HUMO_logo.png" alt="Humo" />
+        <p>9860 1234 5678 9012</p>
+      </div>
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Uzcard_logo.svg" alt="Uzcard" />
+        <p>8600 9876 5432 1098</p>
+      </div>
     </div>
-    <div class="card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Uzcard_logo.svg" alt="Uzcard Logo" />
-      <div class="card-number">8600 9876 5432 1098</div>
-    </div>
-  </div>
 
-  <!-- Telegram link -->
-  <div class="telegram-link">
-    <a href="https://t.me/n_vxl" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logotipi" />
-    </a>
+    <!-- Telegram tugmasi -->
+    <a href="https://t.me/n_vxl" target="_blank" class="telegram-btn">Telegramga o‘tish</a>
   </div>
 </body>
 </html>
