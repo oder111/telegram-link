@@ -2,78 +2,96 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   background: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1350&q=80") no-repeat center center fixed;
   background-size: cover;
 }
 
-/* Markazga joylash */
+/* Markazdagi konteyner */
 .container {
-  background-color: rgba(0, 0, 0, 0.6); /* qora yarim shaffof fon */
-  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 850px;
   margin: 50px auto;
-  padding: 30px;
-  border-radius: 12px;
+  padding: 40px 30px;
+  border-radius: 15px;
   text-align: center;
 }
 
-/* Sarlavha */
-h1 {
-  font-size: 28px;
-  margin-bottom: 20px;
+/* Yuqoridagi motivatsion yozuv */
+.intro h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  background: linear-gradient(90deg, #FFD700, #FFA500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.intro p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+.highlight-text {
+  color: #00d4ff;
+  font-weight: bold;
 }
 
 /* Video */
 video {
   width: 100%;
   max-width: 600px;
-  border-radius: 10px;
-  margin-bottom: 20px;
+  border-radius: 12px;
+  margin: 25px 0;
 }
 
-/* Tavsif */
-.description {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-/* Kartalar */
-.cards {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-bottom: 30px;
-  flex-wrap: wrap;
-}
-
-.card {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 15px;
-  border-radius: 10px;
-}
-
-.card img {
-  width: 80px;
-  margin-bottom: 10px;
-}
-
-.card p {
-  font-weight: bold;
-  font-size: 16px;
-}
-
-/* Telegram tugmasi */
+/* Tugma */
 .telegram-btn {
+  display: inline-block;
   background-color: #0088cc;
   color: #fff;
-  padding: 12px 24px;
+  padding: 14px 30px;
   border-radius: 8px;
   text-decoration: none;
-  font-size: 18px;
-  transition: background 0.3s ease;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 .telegram-btn:hover {
   background-color: #006699;
+  transform: scale(1.05);
+}
+
+/* Narx va motivatsion matn */
+.price-section {
+  margin-top: 35px;
+}
+
+.price-section p {
+  font-size: 18px;
+  color: #f0f0f0;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.price {
+  font-size: 24px;
+  color: #FFD700;
+  font-weight: bold;
+}
+
+.ticket {
+  color: #00d4ff;
+  font-weight: 600;
+}
+
+.limited {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #ff4747;
+  text-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
 }
